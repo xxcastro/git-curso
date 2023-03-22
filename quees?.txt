@@ -1,0 +1,24 @@
+Sistema de control de versiones, controla o adminstra la distintas versiones de un programa 
+
+Es un sistema de control distribuido es decir que multiples desarrolladores podran alterar el codigo (por lo general tendras tus propios archivos en local)
+
+Se utiliza para que multiples desarrolladores trabajen en mismo proyecto
+
+En git hay tres estados:
+    working directory:Donde tu vas a estar trabajando con todos tus archivos
+    staging area:Donde vas a agregar todos tus archivos que has preparado para el guardado
+    repository: Cuando ya estas decidido a guardar los cambios
+Comandos Basicos: 
+    git init:Manera de decir que vamos a crear un nuevo proyecto utilizando git
+
+    git add: Sirve para pasar los archivos de working directory a staging area
+
+    git status: Sirve para ver en que estado estan tus archivos
+
+    git commit: Sirve para pasar los archivos de staging area al repository
+
+    git push: Es para suirlo a un repositorio remoto(para subirlo a un servidor donde otros desarrolladores con permisos puedan modificarlo o verlo)
+
+    git pull: Si trabajas con multiples desarrolladores sirve para que te traiga los cambios que han hecho los otros desarrolladores
+    
+    git clone: hace una copia del servidor central donde esta el codigo a tu ordenador para que puedas trabajar con el
