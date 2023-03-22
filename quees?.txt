@@ -24,3 +24,5 @@ Comandos Basicos:
     git clone: hace una copia del servidor central donde esta el codigo a tu ordenador para que puedas trabajar con el
 
     git restore <nombre.archivo>: Para descartar los cambios hechos
+
+    git diff <nombre.archivo>: Para ver las diferencias hechas en los archivos
